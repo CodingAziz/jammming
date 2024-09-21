@@ -1,0 +1,32 @@
+.innerLayer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+
+.para {
+    opacity: 0.6;
+}
+
+.addBtn {
+    width: 20px;
+    background-color: rgba(48, 48, 45, 0);
+    color: white;
+}
+
+.addBtn:hover {
+    background-color: black;
+}
+
+.removeBtn {
+    width: 20px;
+    background-color: rgba(48, 48, 45, 0);
+    color: white;
+}
+
+.removeBtn:hover {
+    background-color: black;
+}
+
+

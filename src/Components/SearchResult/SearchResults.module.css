@@ -1,0 +1,10 @@
+.divContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly !important;
+    padding: 15px;
+}
+
+.h1Result {
+    padding: 15px 0;
+}

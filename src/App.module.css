@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sideBySide {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+}
+
+.h1 {
+    text-align: center;
+    background-color: darkslateblue;
+    font-size: 50px;
+}
+
+.span {
+    color: darkviolet;
+}
+
+.trackContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    top: 20px;
+    background-color: rgba(48, 48, 45, 0.7);
+    width: 34vw;
+    height: 150vh;
+    border: 5px solid black;
+    overflow: scroll;
+}
+
+.trackContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.searchBarDiv {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+}

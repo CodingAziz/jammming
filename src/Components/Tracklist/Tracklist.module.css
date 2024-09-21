@@ -1,0 +1,17 @@
+.divContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly !important;
+    padding: 15px;
+}
+
+.innerLayer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+.para {
+    opacity: 0.6;
+}

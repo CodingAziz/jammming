@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    top: 20px;
+    background-color: rgba(48, 48, 45, 0.7);
+    width: 30vw;
+    height: 150vh;
+    border: 5px solid black;
+}
+
+.input {
+    border: none;
+    background-color: rgba(48, 48, 45, 0.7);
+    color: white;
+    padding: 16px;
+    font-size: 25px;
+}
+
+.divStyles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.btn {
+    background-color: darkslateblue;
+    color: white;
+    padding: 16px;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 2px solid black;
+    position: relative;
+    top: 20px;
+}
+
+.para {
+    opacity: 0.7;
+}
+
+.innerLayer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+.divContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly !important;
+    padding: 15px;
+}
+
+.removeBtn {
+    margin-right: 10px;
+    width: 20px;
+    background-color: rgba(48, 48, 45, 0.7);
+    color: white;
+}
+
+.removeBtn:hover {
+    background-color: black;
+
+}
